@@ -53,26 +53,9 @@ nav a {
 #news h2 {
   text-align: center;
 }
-#news dl {
-  display: flex;
-  flex-wrap: wrap;
-  border-top: 2px solid rgb(200, 200, 200);
-  margin-bottom: 20px;
-  padding: 0;
-}
-#news dt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
-  padding: 15px;
-  margin-left: 80px;
-}
-#news dd {
-  border-bottom: 2px solid rgb(200, 200, 200);
-  margin-left: 40px;
-  width: 80%;
-  padding: 15px;
+#news li {
+  list-style: none;
+  text-align: center
 }
 #contact h2 {
   text-align: center;
